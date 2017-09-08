@@ -1,5 +1,5 @@
 FROM tiredofit/nginx
-MAINTAINER Dave Conroy <dave at tiredofit dot ca>
+LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
 
 RUN apk update && \
     apk add --no-cache \
